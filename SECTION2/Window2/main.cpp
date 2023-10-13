@@ -7,7 +7,6 @@
 
 class Window : public QWidget
 {
-
     QPushButton* btn;
     QSlider* slider;
 public:
@@ -26,18 +25,6 @@ protected:
         qDebug("mousePressEvent");
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
 
 int main(int argc, char** argv)
 {

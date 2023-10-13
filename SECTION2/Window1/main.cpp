@@ -10,9 +10,9 @@ int main(int argc, char** argv)
 //  win.show();
 
     win.setWindowTitle("First GUI Application");
-    win.move(100, 100);
-    //  win.resize(500, 500);
-    win.setFixedSize(500,500);
+    win.move(500, 100);
+    win.resize(500, 500);
+    //win.setFixedSize(500,500);
     win.setWindowOpacity(0.5);
 
     QPalette pal = QPalette();

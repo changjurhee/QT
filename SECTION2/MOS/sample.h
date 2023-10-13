@@ -5,7 +5,8 @@
 
 class Sample : public QObject
 {
-//    Q_OBJECT
+    Q_OBJECT
+
 public:
     explicit Sample(QObject *parent = nullptr);
 
@@ -18,7 +19,6 @@ public: static const QMetaObject staticMetaObject;
     static inline QString tr(const char *s, const char *c = nullptr, int n = -1) { return staticMetaObject.tr(s, c, n); }
 private: static void qt_static_metacall(QObject *, QMetaObject::Call, int, void **); struct QPrivateSignal { explicit QPrivateSignal() = default; };
     */
-
 
     void f1();
 

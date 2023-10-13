@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QPushButton>
 
+// signal slot 기술은 반드시 헤더 파일 내에 기술해야 한다.
 
 class Window : public QWidget
 {
