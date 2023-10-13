@@ -21,14 +21,14 @@ public:
         btn2 = new QPushButton("button2", this);
         btn3 = new QPushButton("button3", this);
 
-        //layout = new QBoxLayout(QBoxLayout::TopToBottom);
-        layout = new QBoxLayout(QBoxLayout::RightToLeft, this);
+        layout = new QBoxLayout(QBoxLayout::TopToBottom);
+        //layout = new QBoxLayout(QBoxLayout::RightToLeft, this);
 
         layout->addWidget(btn1);
         layout->addWidget(btn2);
         layout->addWidget(btn3);
 
-        //this->setLayout(layout);
+        this->setLayout(layout);
     }
 };
 

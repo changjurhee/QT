@@ -40,6 +40,7 @@ public:
         connect( ac2, &QAction::triggered,
                 this, &Menu1Window::close);
     }
+
     void createMenu2()
     {
         QMenu* menu = menuBar()->addMenu("File");
