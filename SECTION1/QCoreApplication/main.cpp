@@ -11,8 +11,8 @@ int main(int argc, char** argv)
 
     QTimer timer;
 
-//  timer.callOnTimeout(  [](){qDebug("tick");}  );
-    timer.callOnTimeout(  [&app](){qDebug("tick"); app.exit();}  );
+  timer.callOnTimeout(  [](){qDebug("tick");}  );
+//    timer.callOnTimeout(  [&app](){qDebug("tick"); app.exit();}  );
 
     timer.start(1000); // 1초마다 타이머 이벤트 발생
 
