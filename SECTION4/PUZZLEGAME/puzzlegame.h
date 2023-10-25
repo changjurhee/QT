@@ -10,6 +10,13 @@
 #include <QApplication>
 #include <algorithm>
 
+// further works
+// 1. update()할때 영역의 크기를 계산해서 꼭 필요한 부분만 업데이트
+// 2. 다 맞추었는지 확인 하는 기능
+// 3. 섞는 기능 (메뉴 등을 추가)
+// 4. count를 변경 할 수 있는 기능
+// 5. 그림을 변경 할 수 있는 기능
+// 6. 맞추는데 걸린 시간, 횟수 등을 관리하는 기능 (score)s
 
 class PuzzleWindow : public QWidget
 {

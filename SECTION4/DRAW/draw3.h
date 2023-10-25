@@ -28,7 +28,7 @@ protected:
         ++count;
         this->update();  // Q 에 이벤트 넣기
         this->update();  // Q 에 이벤트 넣기
-//         this->repaint();
+//         this->repaint(); // use for animation job
 //        this->repaint();
         QThread::sleep(1); // 1초.
     }

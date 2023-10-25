@@ -49,7 +49,20 @@
     </rect>
    </property>
    <property name="text">
-    <string>CheckBox</string>
+    <string>cb</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>rb</string>
    </property>
   </widget>
  </widget>

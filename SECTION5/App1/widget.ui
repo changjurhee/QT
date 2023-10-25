@@ -17,14 +17,14 @@
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QPushButton" name="pushButton_1">
+      <widget class="QPushButton" name="pushButton_2">
        <property name="text">
         <string>PushButton</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="pushButton_1">
        <property name="text">
         <string>PushButton</string>
        </property>
@@ -61,8 +61,8 @@
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>83</x>
-     <y>70</y>
+     <x>93</x>
+     <y>130</y>
     </hint>
     <hint type="destinationlabel">
      <x>198</x>
@@ -77,8 +77,8 @@
    <slot>button2_click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>85</x>
-     <y>132</y>
+     <x>95</x>
+     <y>257</y>
     </hint>
     <hint type="destinationlabel">
      <x>219</x>

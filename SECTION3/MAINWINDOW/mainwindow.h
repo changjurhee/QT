@@ -30,6 +30,7 @@ public:
         QLayout* p = layout();
         qDebug("%p", p);
 
+        // RTTI
         qDebug() << p->metaObject()->className();
         qDebug() << p->metaObject()->superClass()->className();
 

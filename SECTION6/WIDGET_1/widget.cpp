@@ -17,13 +17,13 @@ Widget::Widget(QWidget *parent)
 
     ui->edit2->setEchoMode(QLineEdit::Password);
 
-    QRegularExpression rx("-?\\d{1,3}");
+    QRegularExpression rx("-?\\d{1,6}");
     QValidator *validator = new QRegularExpressionValidator(rx, this);
 
     ui->edit1->setValidator(validator);
 
     //--------------------------------------
-
+    // Qt Style sheet example / reference
     //ui->edit1->setStyleSheet("font-style: italic; background-color:yellow");
     qApp->setStyleSheet("QLineEdit{font-style: italic; background-color:yellow}");
 

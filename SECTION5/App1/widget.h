@@ -6,7 +6,7 @@
 //#include "ui_widget.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class Widget; }
+namespace Ui { class Widget; } // c++의 경우 포인터만 사용할 경우 전방 선언만으로 사용 가능함.
 QT_END_NAMESPACE
 
 class Widget : public QWidget

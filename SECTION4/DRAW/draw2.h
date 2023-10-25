@@ -27,9 +27,9 @@ protected:
     void mousePressEvent(QMouseEvent *event) override
     {
         ++count;
-        // this->update();
+        //this->update();
 
-        //this->update(100, 100, 200, 200);
+        this->update(100, 100, 200, 200);
         // this->update(0, 0, 100, 100);
 
     }

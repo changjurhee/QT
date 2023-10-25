@@ -15,8 +15,8 @@ class Menu1Window : public QMainWindow
 public:
     Menu1Window()
     {
-        //createMenu1();
-        createMenu2();
+        createMenu1();
+        //createMenu2();
     }
 
     void createMenu1()
